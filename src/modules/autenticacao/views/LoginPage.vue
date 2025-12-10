@@ -17,7 +17,7 @@
               v-model="username"
               type="text"
               label="Usuário"
-              placeholder="seu_usuario"
+              placeholder="Digite seu usuário"
               :error="errors.username"
               :disabled="isLoading"
               @blur="validateUsername"
